@@ -14,11 +14,10 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" >
         <ImageView
-            android:id="@+id/ImageView01"
+            android:id="@+id/ImgView1"
             android:layout_width="160dip"
             android:layout_height="100dip" 
-            android:contentDescription="@string/scan">
-        </ImageView>
+            android:contentDescription="@string/scan"/>
 
         <View
             android:id="@+id/centerView"
@@ -26,8 +25,7 @@
             android:layout_height="180dip"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:background="#55FF6666" >
-        </View>
+            android:background="#55FF6666" />
 
         <TextView
             android:id="@+id/txtScanResult"
@@ -36,8 +34,7 @@
             android:layout_below="@+id/centerView"
             android:layout_centerHorizontal="true"
             android:text="@string/scan"
-            android:textColor="#FF000000" >
-        </TextView>
+            android:textColor="#FF000000" />
     </RelativeLayout>
 
 </merge>
