@@ -149,6 +149,7 @@ public class TestCamera extends Activity
 						+ "结果：" + result.getText();
 				txtScanResult.setText(strResult);
 				sfhCamera.surfaceDestroyed(null);
+				
 			} 
 			catch (Exception e) 
 			{
