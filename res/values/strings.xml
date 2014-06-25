@@ -3,6 +3,7 @@
 
     <string name="hello">Hello World, TestAppActivity!</string>
     <string name="app_name">扫扫码</string>
- 	<string name="scan">扫描中....</string>
- 	<string name = "back">返回</string>
+    <string name="scan">扫描中....</string>
+    <string name="back">返回</string>
+
 </resources>

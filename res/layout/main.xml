@@ -13,11 +13,12 @@
         android:id="@+id/RelativeLayout01"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" >
+
         <ImageView
             android:id="@+id/ImgView1"
             android:layout_width="160dip"
-            android:layout_height="100dip" 
-            android:contentDescription="@string/scan"/>
+            android:layout_height="100dip"
+            android:contentDescription="@string/scan" />
 
         <View
             android:id="@+id/centerView"
@@ -37,9 +38,10 @@
             android:textColor="#FF000000" />
     </RelativeLayout>
 
-    <Button 
+    <Button
         android:id="@+id/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/back"/>
+        android:text="@string/back" />
+
 </merge>

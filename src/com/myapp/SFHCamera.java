@@ -81,6 +81,7 @@ public class SFHCamera implements SurfaceHolder.Callback {
 			mCamera = null;
 		}
 	}
+
 	/**
 	 * 当surface对象在将要销毁前，该方法会被立即调用。
 	 */
